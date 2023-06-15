@@ -1,0 +1,11 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg fill="#5C469C" width="75px" height="75px" viewBox="0 0 24 24" id="notification-alert-2" data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color" stroke="#5C469C">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier">
+<path id="secondary" d="M15,18H9a3,3,0,0,0,3,3h0A3,3,0,0,0,15,18ZM17,3V6" style="fill: none; stroke: #5C469C; stroke-linecap: round; stroke-linejoin: round; stroke-width:1.512;"/>
+<path id="primary" d="M19.81,15a2.17,2.17,0,0,1,.19.88A2.12,2.12,0,0,1,17.88,18H6.12a2.12,2.12,0,0,1-1.5-3.62L6,13V9a6,6,0,0,1,6-6,5.47,5.47,0,0,1,1,.09" style="fill: none; stroke: #5C469C; stroke-linecap: round; stroke-linejoin: round; stroke-width:1.512;"/>
+<line id="secondary-upstroke" x1="16.95" y1="10.5" x2="17.05" y2="10.5" style="fill: none; stroke: #5C469C; stroke-linecap: round; stroke-linejoin: round; stroke-width:1.512;"/>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+@import url('./header.css');
+@import url('./footer.css');
+
+:root {
+    --fonte-principal: 'Montserrat', sans-serif;
+    --fonte-logo: 'Inter', sans-serif;
+    --roxo: #5C469C;
+    --preto: #333333;
+    --branco: #FFFFFF;
+    --roxo-hover: #8863f8;
+    --roxo-escuro: #2f1b6b;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+    font-size: 16px;
+}
+
+.cabecalho__logo-link {
+    text-decoration: none;
+}

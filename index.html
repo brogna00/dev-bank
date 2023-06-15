@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBank - Página inicial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Montserrat:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+        integrity="sha512-IJEbgDEF7OeKJRa0MY2PApnyJHRIsgzCveek4ec8VWQ+7KG3ZSKVNYa5xP/Gh0hVP0Mwb+gBsk+GwR3JQGhQNg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/chevron-down.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/pagina-inicial/styles.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__logo-inicio">Dev<span class="cabecalho__logo-final">Bank</span></h1>
+        <ul class="cabecalho-lista">
+            <li class="cabecalho-lista__item">
+                <a href="#" class="cabecalho-lista__link">Sobre</a>
+            </li>
+            <li class="cabecalho-lista__item">
+                <a href="#" class="cabecalho-lista__link">Serviços</a>
+            </li>
+            <li class="cabecalho-lista__item">
+                <input class="cabecalho__pesquisa" type="search" placeholder="Busque aqui">
+            </li>
+            <li class="cabecalho-lista__item">
+                <a href="./pages/abrir-conta-form.html"
+                    class="cabecalho-lista__item-botao cabecalho-lista__item-botao--azul">Abrir conta</a>
+            </li>
+            <li class="cabecalho-lista__item">
+                <a href="#" class="cabecalho-lista__item-botao">Acessar conta</a>
+            </li>
+        </ul>
+    </header>
+
+    <section class="banner">
+        <h3 class="banner__titulo">O código do seu sucesso: DevBank - Desenvolva suas finanças!</h3>
+    </section>
+
+    <section class="servicos">
+        <h2 class="servicos__titulo">Serviços</h2>
+        <ul class="lista-servicos">
+            <li class="item-servicos">
+                <img class="item-servicos__imagem" src="./img/cartao-credito-dev.png"
+                    alt="Imagem de um cartão de crédito">
+                <h3 class="item-servicos__titulo">Cartão de crédito</h3>
+            </li>
+            <li class="item-servicos">
+                <img class="item-servicos__imagem" src="./img/rendimento-dev.png"
+                    alt="um homem colocando dinheiro no cofrinho">
+                <h3 class="item-servicos__titulo">Rendimento no CDI</h3>
+            </li>
+            <li class="item-servicos">
+                <img class="item-servicos__imagem" src="./img/pj-dev.png"
+                    alt="Aperto de mãos">
+                <h3 class="item-servicos__titulo">Conta PJ</h3>
+            </li>
+        </ul>
+    </section>
+
+    <section class="conta">
+        <div></div>
+        <div class="conta__container">
+            <h3 class="conta__titulo">Abra sua conta e programe seu futuro. É rápido, fácil e seguro!</h3>
+            <a href="./pages/abrir-conta-form.html" class="conta__botao">Quero abrir a minha conta!</a>
+        </div>
+    </section>
+
+    <section class="beneficios">
+        <h2 class="beneficios__titulo">Mais vantagens do nosso banco:</h2>
+        <ul class="beneficios-lista">
+            <li class="beneficios-lista__item">
+                <img class="beneficios__icone" src="./img/globo-dev.svg" />
+                <h3 class="beneficios-lista__titulo">Acesso global</h3>
+                <p>Com nosso banco digital, você pode acessar sua conta e realizar transações em qualquer lugar do mundo. Não importa onde você esteja, sua conta estará sempre ao alcance dos seus dedos.</p>
+            </li>
+            <li class="beneficios-lista__item">
+                <img class="beneficios__icone" src="./img/notificacao-dev.svg" />
+                <h3 class="beneficios-lista__titulo">Notificações programáveis</h3>
+                <p>Personalize suas notificações financeiras de acordo com suas necessidades. Receba alertas em tempo real sobre transações, saldos ou metas financeiras atingidas.</p>
+            </li>
+            <li class="beneficios-lista__item">
+                <img  class="beneficios__icone" src="./img/celular-dev.svg" alt="">
+                <h3 class="beneficios-lista__titulo">Suporte personalizado</h3>
+                <p> Oferecemos um suporte ao cliente personalizado, onde você pode entrar em contato com nossa equipe de especialistas diretamente pelo aplicativo ou chat online.</p>
+            </li>
+            <li class="beneficios-lista__item">
+                <img class="beneficios__icone" src="./img/tafira-dev.svg" alt="">
+                <h3 class="beneficios-lista__titulo">Tarifas zero</h3>
+                <p>Adeus às taxas bancárias abusivas! No nosso banco digital, oferecemos tarifas zero para diversas operações, desde abertura de conta até transferências e saques.</p>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="rodape">
+        <section class="rodape__empresa">
+            <h2 class="rodape__titulo">O DevBank</h2>
+            <ul class="rodape__lista">
+                <li>
+                    <a href="#" class="rodape__link">Sobre</a>
+                </li>
+                <li>
+                    <a href="#" class="rodape__link">Perguntas frequentes</a>
+                </li>
+                <li>
+                    <a href="#" class="rodape__link">Carreira</a>
+                </li>
+            </ul>
+        </section>
+        <section class="rodape__servicos">
+            <h2 class="rodape__titulo">Serviços</h2>
+            <ul class="rodape__lista">
+                <li>
+                    <a href="#" class="rodape__link">Rendimento CDI</a>
+                </li>
+                <li>
+                    <a href="#" class="rodape__link">Conta PJ</a>
+                </li>
+                <li>
+                    <a href="#" class="rodape__link">Cartão de crédito</a>
+                </li>
+            </ul>
+        </section>
+        <section class="rodape__contato">
+            <h2 class="rodape__titulo">Contato</h2>
+            <ul class="rodape__lista">
+                <li>
+                    <a href="#" class="rodape__link">+55 11 94711-3606</a>
+                </li>
+                <li>
+                    <a href="#" class="rodape__link">suporte@devbank.com.br</a>
+                </li>
+                <li>
+                    <a href="#" class="rodape__link">brogna2000@gmail.com</a>
+                </li>
+            </ul>
+        </section>
+        <section class="rodape__redes-sociais">
+            <h2 class="rodape__titulo">Acesse nossas redes</h2>
+            <ul class="rodape__lista redes-sociais__lista">
+                <a href="https://www.linkedin.com/in/joao-victor-brogna-rodrigues/" target="_blank"><li><img src="./img/in-dev.svg" alt="ícone do Linkedin"></li></a>
+                <a href="https://github.com/brogna00" target="_blank"><li><img src="./img/git-dev.svg" alt="ícone do GitHub"></li></a>                
+                <a href="https://www.instagram.com/brogna_/" target="_blank"><li><img src="./img/insta-dev.svg" alt="ícone do Instagram"></li></a>
+                <a><li><img src="./img/Youtube.png" alt="ícone do Youtube"></li></a>
+            </ul>
+            <h2 class="rodape__logo"><span class="rodape__logo--negrito">Dev</span>Bank</h2>
+        </section>
+    </footer>
+</body>
+
+</html>
