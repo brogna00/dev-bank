@@ -1,27 +1,31 @@
-# Bev Bank
+# Dev Bank
+Bem-vindo ao repositório do projeto do Dev Bank! Neste projeto, criamos um banco digital fictício que permite aos usuários criar uma conta através de um formulário. 
 
-#### Fictitious digital bank named DevBank
+![image](https://github.com/brogna00/dev-bank/assets/93611151/927924e7-b33b-4fbc-a08a-770cf6c8d676)
 
-## 🗣 Descrição do Projeto:
+ ## Pré-requisitos
 
-Projeto ainda em desenvolvimento que visa criar um banco digital fictício. O Dev Bank contém uma página inicial intuitiva e limpa,
-dando opção para o usuário criar uma conta, o que o redireciona para a tela de formulário, o possibilitando abrir uma conta fictícia
-no DevBank. Mais adiante no cadastro, é possível capturar uma foto do usuario para finalizar a abertura de conta.
+Antes de começar, certifique-se de que você tenha os seguintes requisitos instalados:
 
-![image](https://github.com/brogna00/dev-bank/assets/93611151/487ef4b9-36bc-4389-afb9-3de31beb5fd0)
- 
+- Navegador Web (Google Chrome, Mozilla Firefox, Safari, etc.).
 
-## 🔨 Funcionalidades do projeto:
+## Funcionalidades Principais
 
-- Utilizando JavaScript, verifica o CPF e idade, para que ambos estjam nos moldes esperados para prosseguir com o cadastro.
+- Cadastro de Conta: Os usuários podem preencher um formulário para criar uma conta no banco digital fictício.
 
-- Utilizando JavaScript, mensagens de erro customizadas manualmente aparecem para cada erro.
+- Interação com a Câmera: O projeto interage com a câmera do usuário para efetuar uma foto que será associada à conta.
 
-![image](https://github.com/brogna00/dev-bank/assets/93611151/ab753583-b039-420e-bc57-b3903d023a18)
+- Mensagens de Erro Customizadas: Utilizamos mensagens de erro customizadas para orientar o usuário sobre quais campos precisam ser corrigidos em caso de erro.
 
-- Utilizando JavaScript, interage com a camera do usuário e efetua uma foto para prosseguir com o cadastro.
+## Tecnologias Utilizadas
 
-![image](https://github.com/brogna00/dev-bank/assets/93611151/74abc7f1-d447-446d-98db-aec2ed9a43b7)
+- HTML
+- CSS
+- JavaScript
 
+## Contato
 
-![image](https://github.com/brogna00/dev-bank/assets/93611151/ba5a64ba-8f19-4508-b2c6-5fbd96af4b14)
+#### Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
+
+- [Meu email](brogna2000@gmail.com)
+- [Meu Linkedin](https://www.linkedin.com/in/joao-brogna/)
